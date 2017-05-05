@@ -1,10 +1,10 @@
 *List /etc/yum.repos.d
-	[root@mycloudera1 yum.repos.d]# ls
+	[jimmyrekso123@mycloudera1 yum.repos.d]# ls
 	CentOS-Base.repo       CentOS-Media.repo      epel.repo
 	CentOS-CR.repo         CentOS-Sources.repo    epel-testing.repo
 	CentOS-Debuginfo.repo  CentOS-Vault.repo      google-cloud.repo
 	CentOS-fasttrack.repo  cloudera-manager.repo
-	[root@mycloudera1 yum.repos.d]# sudo yum install cloudera-manager-daemons cloudera-manager-server
+	[jimmyrekso123@mycloudera1 yum.repos.d]# sudo yum install cloudera-manager-daemons cloudera-manager-server
 	Loaded plugins: fastestmirror
 	cloudera-manager                                         |  951 B     00:00
 	Loading mirror speeds from cached hostfile
@@ -55,8 +55,20 @@
 	cloudera-manager-server.x86_64 0:5.11.0-1.cm5110.p0.101.el7
 	
 	Complete!
-	[root@mycloudera1 yum.repos.d]#
+	[jimmyrekso123@mycloudera1 yum.repos.d]#
 	
+	
+	
+	[jimmyrekso123@mycloudera1 mysql-connector-java-5.1.41]$ sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql scm root jimmyrekso123
+	JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera
+	Verifying that we can write to /etc/cloudera-scm-server
+	Creating SCM configuration file in /etc/cloudera-scm-server
+	Executing:  /usr/java/jdk1.7.0_67-cloudera/bin/java -cp /usr/share/java/mysql-connector-java.jar:/usr/share/java/oracle-connector-java.jar:/usr/share/cmf/schema/../lib/* com.cloudera.enterprise.dbutil.DbCommandExecutor /etc/cloudera-scm-server/db.properties com.cloudera.cmf.db.
+	[                          main] DbCommandExecutor              INFO  Successfully connected to database.
+	All done, your SCM database is configured correctly!
+	[jimmyrekso123@mycloudera1 mysql-connector-java-5.1.41]$
+
+
 
 	
 	
