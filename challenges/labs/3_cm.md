@@ -249,3 +249,8 @@
 		} ]
 		}
 <center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/api_cluster.png"/> </center>		
+
+
+
+*Capture a Hue screen that shows the Hive tables to challenges/labs/3_hue_hive.png
+<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/hue_hive.png"/> </center>		
