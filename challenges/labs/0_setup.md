@@ -41,3 +41,24 @@ List the command and output for yum repolist enabled
     [root@mycloudera1 ~]#
 
 	
+Add the following Linux accounts to all nodes
+User cate with a UID of 2300
+User jemaine with a UID of 2900
+Create the group kiwis and add jemaine to it
+Create the group aussies and add cate to it
+
+
+
+List the /etc/passwd entries for cate and jemaine
+
+	cate:x:2300:1004::/home/cate:/bin/bash
+	jemaine:x:2900:1005::/home/jemaine:/bin/bash
+	[root@mycloudera1 ~]#
+<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/user.png"/> </center>
+List the /etc/group entries for kiwis and aussies
+	kiwis:x:1006:jemaine
+	aussies:x:1007:cate
+	[root@mycloudera3 ~]#
+<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/group.png"/> </center>
+
+	
