@@ -61,4 +61,33 @@ List the /etc/group entries for kiwis and aussies
 	[root@mycloudera3 ~]#
 <center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/group.png"/> </center>
 
+
+
+
+*Create the Issue Install CM
+*Assign yourself to the Issue and label it started
+*Install Cloudera Manager on the first node listed in 0_setup.md
+*Configure the CM repo to install the latest release
+*    List the command and output for ls /etc/yum.repos.d in challenges/labs/2_cm.md
+*    Copy the cloudera-manager.repo file to challenges/labs/2_cloudera-manager.repo.md
+*Configure Cloudera Manager
+*    Use the scm_prepare_database.sh script to write your db.properties file
+*        List the full command line in 2_cm.md
+*Start the Cloudera Manager server. Then in challenges/labs/2_db.properties.md:
+*    Add the complete first line from your server log
+*    Add the complete line that contains the phrase "Started Jetty server"
+*    Add the full contents of your db.properties file
+*Push these changes to your GitHub repo and label the Issue 'review`
+*    Assign the issue to both instructors
+
+List /etc/yum.repos.d
+		[root@mycloudera1 yum.repos.d]# ls
+		CentOS-Base.repo       CentOS-Media.repo      epel.repo
+		CentOS-CR.repo         CentOS-Sources.repo    epel-testing.repo
+		CentOS-Debuginfo.repo  CentOS-Vault.repo      google-cloud.repo
+		CentOS-fasttrack.repo  cloudera-manager.repo
+		[root@mycloudera1 yum.repos.d]#
+		
+
+
 	
