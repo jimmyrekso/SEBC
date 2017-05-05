@@ -62,8 +62,8 @@
 
 
 *List result teragen			
-[cate@mycloudera1 ~]$ hdfs dfs -ls /user/cate/
-Found 2 items
-drwx------   - cate supergroup          0 2017-05-05 04:41 /user/cate/.staging
-drwxr-xr-x   - cate supergroup          0 2017-05-05 04:40 /user/cate/cate
-[cate@mycloudera1 ~]$
+		[cate@mycloudera1 ~]$ hdfs dfs -ls /user/cate/
+		Found 2 items
+		drwx------   - cate supergroup          0 2017-05-05 04:41 /user/cate/.staging
+		drwxr-xr-x   - cate supergroup          0 2017-05-05 04:40 /user/cate/cate
+		[cate@mycloudera1 ~]$
