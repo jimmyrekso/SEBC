@@ -69,6 +69,8 @@ List the /etc/group entries for kiwis and aussies
 <center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/progress_cluster.png"/> </center>
 
 		
+*Install & Configure Cluster Done
+<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/cluster_done.png"/> </center>
 
 
 	
