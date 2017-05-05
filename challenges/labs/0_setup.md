@@ -4,7 +4,7 @@ List the cloud provider you are using (AWS, GCE, Azure, other)
         Using Google Compute
 List the nodes you are using by IP address and name
     
-	<center> <img src="images/ip_vm.png"/> </center>
+	<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/ip_vm.png"/> </center>
 List the Linux release you are using
     
     [root@mycloudera1 ~]# rpm --query centos-release
