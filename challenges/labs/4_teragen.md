@@ -67,5 +67,5 @@
 		drwx------   - cate supergroup          0 2017-05-05 04:41 /user/cate/.staging
 		drwxr-xr-x   - cate supergroup          0 2017-05-05 04:40 /user/cate/cate
 		[cate@mycloudera1 ~]$
-<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/teragen.png"/> </center>				
+<center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/teragen.png"/> </center>				
 
