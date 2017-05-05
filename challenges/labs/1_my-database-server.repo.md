@@ -58,5 +58,11 @@ Record the following in challenges/labs/1_db-server.md
 <center> <img src="https://github.com/jimmyrekso/SEBC/blob/master/challenges/labs/images/show_db.png"/> </center>
 
 
+		[root@mycloudera2 jimmyrekso123]# cd  /usr/share/java/
+		[root@mycloudera2 java]# ls
+		mysql-connector-java-5.1.41.tar.gz  mysql-connector-java.jar
+		[root@mycloudera2 java]#
+
+
 
 	
